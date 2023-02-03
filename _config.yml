@@ -29,7 +29,8 @@ github_username:  faye-romero
 
 # Build settings
 #theme: minima
-theme: academic-jekyll-theme
+#theme: academic-jekyll-theme
+remote_theme: LeNPaul/academic
 plugins:
   - jekyll-feed
 
