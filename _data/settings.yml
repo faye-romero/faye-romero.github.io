@@ -1,7 +1,5 @@
 menu:
-- {name: 'people', url: '/people'}
 - {name: 'publications', url: '/publications'}
-- {name: 'courses', url: '/courses'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
@@ -16,10 +14,9 @@ courses:
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'github', link: 'https://github.com/faye-romero'}
+- {icon: 'twitter', link: 'https://twitter.com/fayegromero'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/faye-romero-6148b1197/'}
 
 contacts:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+- {name: 'Faye Romero', title: 'PhD Student', department: 'Biology | Evolution, Ecology, Genetics, and Genomics', institution: 'University of Rochester', email: 'fromero3@ur.rochester.edu', image: 'assets/img/contact.jpg'}
