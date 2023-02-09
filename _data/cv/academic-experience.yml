@@ -1,5 +1,14 @@
-- title: 'Professor of Physics'
-  description: 'McMaster University (2005 – present)'
+- title: 'PhD Student. Chen Lab. University of Rochester'
+  description: '(Nov 2021-present) Investigating the genomic architecture of inbreeding depression in the Florida Scrub- Jay by analyzing long-term pedigree and genetic data'
 
-- title: 'Associate Faculty'
-  description: 'McGill University (1987 – 2005)'
+- title: 'Rotating PhD Student. Uy Lab. University of Rochester'
+  description: '(Feb 2022-May 2022). Modeled the demographic history of two bird species endemic to the Solomon Islands in order to examine the dynamics of reproductive isolation and secondary contact'
+
+- title: 'Rotating PhD Student. Larracuente Lab. University of Rochester'
+  description: '(Aug 2021-Nov 2021) Compared <i>de novo</i> genome assemblers to streamline a heterochromatin-enriched pipeline for repeat-rich region assembly of <i>Drosophila melanogaster</i> genomes'
+  
+- title: 'Undergraduate Researcher. Whiteman Lab. UC Berkeley'
+  description: '(2018-2020) Explored the phenotypic consequences of the Anna’s Hummingbird’s range expansion into urban environments by measuring museum specimens and conducting statistical analyses'
+  
+- title: 'Research & Preparation. Museum of Vertebrate Zoology. UC Berkeley'
+  description: '(2017-2018) Compared thermal reflectance in bird feathers across island and mainland Californian populations. Responsible for dissecting and preparing specimens for the collections through the MVZ prep lab'
