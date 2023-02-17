@@ -19,4 +19,4 @@ social:
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/faye-romero-6148b1197/'}
 
 contacts:
-- {name: 'Faye Romero', title: 'PhD Student', department: 'Department of Biology (Evolution, Ecology, Genetics, and Genomics)', institution: 'University of Rochester', institution_address: '477 Hutchison Hall, Box 270211, Rochester, NY 14627', email: 'fromero3@ur.rochester.edu', image: 'assets/img/contact2'}
+- {name: 'Faye Romero', title: 'PhD Student', department: 'Department of Biology (Evolution, Ecology, Genetics, and Genomics)', institution: 'University of Rochester', institution_address: '477 Hutchison Hall, Box 270211, Rochester, NY 14627', email: 'fromero3@ur.rochester.edu', image: 'assets/img/contact2.jpg'}
