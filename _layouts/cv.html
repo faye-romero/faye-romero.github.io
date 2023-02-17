@@ -20,10 +20,21 @@ layout: default
     </div>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4>Academic Experience</h4>
+        <h4>Research Experience</h4>
       </div>
       <div class="col-md-10">
         {% for section in site.data.cv.academic-experience %}
+          <b>{{ section.title }}</b><br>
+          {{ section.description }}<br><br>
+        {% endfor %}
+      </div>
+    </div>
+        <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Honors and Awards</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.honors-awards %}
           <b>{{ section.title }}</b><br>
           {{ section.description }}<br><br>
         {% endfor %}
@@ -42,10 +53,43 @@ layout: default
     </div>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4>Honors and Awards</h4>
+        <h4>Teaching and Leadership</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.honors-awards %}
+        {% for section in site.data.cv.teaching-leadership %}
+          <b>{{ section.title }}</b><br>
+          {{ section.description }}<br><br>
+        {% endfor %}
+      </div>
+    </div>
+        <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Service</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.service %}
+          <b>{{ section.title }}</b><br>
+          {{ section.description }}<br><br>
+        {% endfor %}
+      </div>
+    </div>
+        <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Professional Memberships</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.memberships %}
+          <b>{{ section.title }}</b><br>
+          {{ section.description }}<br><br>
+        {% endfor %}
+      </div>
+    </div>
+        <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Skills</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.skills %}
           <b>{{ section.title }}</b><br>
           {{ section.description }}<br><br>
         {% endfor %}
