@@ -6,7 +6,7 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Curriculum Vitae</h3><p><a href="https://drive.google.com/file/d/1W5u8ve-yue1gPumj18QQ1Fc_6ltRubRk/view?usp=sharing">FayeRomero_CV_June2023.pdf</a></p>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Curriculum Vitae</h3><p><a href="https://drive.google.com/file/d/1ozeWBHnZXSlRONfJQVs8AVLO8kuLf8Dp/view?usp=sharing">FayeRomero_CV_Aug2023.pdf</a></p>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4>Education</h4>
@@ -46,6 +46,17 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.cv.presentations %}
+          <b>{{ section.title }}</b><br>
+          {{ section.description }}<br><br>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Media Coverage</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.media-coverage %}
           <b>{{ section.title }}</b><br>
           {{ section.description }}<br><br>
         {% endfor %}
