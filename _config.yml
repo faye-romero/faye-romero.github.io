@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Faye"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD candidate at the University of Rochester"
   location         : "Rochester, NY, USA"
   employer         : "University of Rochester"
   uri              : # URL
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/faye-romero-6148b1197/"
+  linkedin         : "faye-romero-6148b1197"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
