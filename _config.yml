@@ -21,10 +21,10 @@ repository               : "faye-romero/faye-romero.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Faye"
-  pronouns         : # example: "she/her"  
-  bio              : "PhD candidate at the University of Rochester"
+  avatar           : "/images/FayeRomero_ProfilePicture.png"
+  name             : "Faye Romero"
+  pronouns         : "she/her"  
+  bio              : "Evolutionary, population, & conservation genomics"
   location         : "Rochester, NY, USA"
   employer         : "University of Rochester"
   uri              : # URL

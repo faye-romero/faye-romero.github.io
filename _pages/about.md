@@ -11,4 +11,4 @@ As a PhD candidate in [Nancy Chen's lab](https://popgenchenlab.github.io/), I’
   
 During my undergraduate at UC Berkeley in [Noah Whiteman's lab](http://www.noahwhiteman.org/), I used museum specimens from the [Museum of Vertebrate Zoology](https://mvz.berkeley.edu/) to explore how the morphology of Anna’s Hummingbirds has responded to decades of anthropogenic environmental changes, such as the introduction of hummingbird feeders.
 
-![Romero_pic](/images/Romero_pic.png)
+![Romero_Pic](/images/Romero_Pic.png)
