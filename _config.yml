@@ -21,7 +21,7 @@ repository               : "faye-romero/faye-romero.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/FayeRomero_ProfilePicture.png"
+  avatar           : "images/FayeRomero_ProfilePicture.png"
   name             : "Faye Romero"
   pronouns         : "she/her"  
   bio              : "Evolutionary, population, & conservation genomics"
