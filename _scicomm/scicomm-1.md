@@ -1,7 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-collection: portfolio
+title: "Press releases"
+excerpt: "I write short press releases for forthcoming papers in <i>The American Naturalist</i>. <a href="https://www.amnat.org/an/newpapers/June-2023-Gokcekus-et-al..html">Here's an example.</a>"
+collection: scicomm
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+I write short press releases for forthcoming papers in <i>The American Naturalist</i>. <a href="https://www.amnat.org/an/newpapers/June-2023-Gokcekus-et-al..html">Here's an example</a> for a article by Gokcekus et al. about social familiarity and fitness in Great tits.
