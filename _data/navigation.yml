@@ -10,6 +10,9 @@ main:
     
   - title: "CV"
     url: /cv/
+        
+  - title: "SciComm"
+    url: /scicomm/
     
   - title: "Blog"
     url: /year-archive/
