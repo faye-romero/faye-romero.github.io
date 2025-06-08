@@ -4,7 +4,7 @@ date: 2025-06-07
 permalink: /posts/2025/06/annas-press/
 ---
 
-We're pleasantly surprised that our Anna's Hummingbird work has been receiving a lot of press and popular science attention. We're so grateful for the opportunity to share this cool story with the world:
+We're pleasantly surprised that our Anna's Hummingbird work has been receiving a lot of press and popular science attention. We're so grateful for the opportunity to share this cool story with the world: (read more)
 
 Articles:  
 - <a href="https://www.science.org/content/article/bird-feeders-have-caused-dramatic-evolution-california-hummingbirds">News from <i>Science</i></a>  
