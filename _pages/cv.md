@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-Please find my CV [here](/files/FayeRomero_CV_Jan2025.pdf) (*last updated 2025-01-02*).
+Please find my CV [here](/files/FayeRomero_CV_June2025.pdf) (*last updated 2025-06-08*).
