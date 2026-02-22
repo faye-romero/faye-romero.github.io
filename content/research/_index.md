@@ -23,5 +23,4 @@ I’m broadly interested in using population genomics to better understand how i
 
 During my undergraduate at UC Berkeley in [Noah Whiteman's lab](http://www.noahwhiteman.org/), I used museum specimens from the [Museum of Vertebrate Zoology](https://mvz.berkeley.edu/) to explore how the morphology of Anna’s Hummingbirds has responded to decades of anthropogenic environmental changes, such as the [introduction of hummingbird feeders](https://www.audubon.org/magazine/hummingbird-rapidly-evolved-longer-beak-slurp-more-nectar-feeders-new-study-finds).
 
-![](anna-paper-image.jpg)
-<i>Image credit: Ian Edison</i>
+![](20_12July_183568_side_TWS.JPG)
