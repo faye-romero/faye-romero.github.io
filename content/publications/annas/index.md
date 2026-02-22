@@ -20,6 +20,7 @@ editPost:
 ##### Download
 
 + [Link to paper](https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.70237)
++ [Commentary](https://onlinelibrary.wiley.com/doi/10.1111/gcb.70199)
 
 ---
 
@@ -37,5 +38,8 @@ Nicolas M. Alexandre*, Faye G. Romero*, Simon G. English*, Eliza Grames, Felipe 
 
 ##### Related material
 
-+ Press coverage
-    * [link 1](link)
+Press coverage:
++ [News from <i>Science</i>](https://www.science.org/content/article/bird-feeders-have-caused-dramatic-evolution-california-hummingbirds)
++ [NPR](https://www.npr.org/2025/05/23/nx-s1-5409073/annas-hummingbird-backyard-feeders)
++ [Audubon](https://www.audubon.org/magazine/hummingbirds-rapidly-evolved-longer-beaks-slurp-more-nectar-yard-feeders-new-study)
++ Find the full list [here](https://faye-romero.github.io/media/annas/).
