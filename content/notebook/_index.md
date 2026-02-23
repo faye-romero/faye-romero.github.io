@@ -4,9 +4,6 @@ description: "Coding notebook"
 ---
 
 ## Bioinformatics notebook
-
----
-
 Code chunks that I've found repeatedly useful when dealing with genomic data.
 
 ---
@@ -21,8 +18,8 @@ grep "^>" mygenome.fasta > list_of_scaffolds.txt
 # Example: find all files ending in ".bam"
 find . -type f -name "*.bam"
 
-# Execute a command for all files in a directory whose name matches a certain pattern
-find . -type f -name "yourpattern" -exec [COMMAND] {} [TARGET DIRECTORY] \;
+# Execute a command for all files in a directory + sub-directories whose name matches a certain pattern
+find . -type f -name "pattern" -exec [COMMAND] {} [TARGET] \;
 # Example: find all files in current directory ending in ".bam" and move to a directory called target/
 find . -type f -name "*.bam" -exec mv {} target/ \;
 
