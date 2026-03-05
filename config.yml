@@ -108,7 +108,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Faye Romero"
-      icon: dna-icon.png
+      icon: favicon.ico
       iconHeight: 18
 
 markup:
