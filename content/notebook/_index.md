@@ -8,27 +8,6 @@ Code chunks that I've found repeatedly useful when dealing with genomic data.
 
 ---
 
-### General
-
-```
-# Extract all chromosome/scaffold names from a FASTA file
-grep "^>" mygenome.fasta > list_of_scaffolds.txt
-
-# Search a directory + sub-directories for a file name containing a string
-# Example: find all files ending in ".bam"
-find . -type f -name "*.bam"
-
-# Execute a command for all files in a directory + sub-directories whose name matches a certain pattern
-find . -type f -name "pattern" -exec [COMMAND] {} [TARGET] \;
-# Example: find all files in current directory ending in ".bam" and move to a directory called target/
-find . -type f -name "*.bam" -exec mv {} target/ \;
-
-# Create a symlink
-ln -s /path/to/original/file /path/to/target/folder
-
-```
----
-
 ### BCFtools
 
 ```
@@ -38,6 +17,9 @@ ln -s /path/to/original/file /path/to/target/folder
 bcftools view -H file.vcf.gz | wc -l
 #-H = no header
 
+# Count how many chromosomes/scaffolds in a VCF
+bcftools query -f '%CHROM\n' file.vcf.gz | uniq | wc -l
+
 # Get a list of variants in a VCF (CHROM, POS, ID)
 bcftools query -f '%CHROM\t%POS\t%ID\n' file.vcf.gz
 
@@ -45,7 +27,7 @@ bcftools query -f '%CHROM\t%POS\t%ID\n' file.vcf.gz
 bcftools query -l file.vcf.gz
 
 # Pull all information for one variant
-bcftools view -H -i 'ID=="SNPid"' file.vcf.gz
+bcftools view -H -i 'ID=="SNPID"' file.vcf.gz
 
 # Pull all information for one sample
 bcftools view -s SampleID file.vcf.gz
@@ -87,3 +69,25 @@ samtools faidx file.fasta Chr1:1-1000 > Chr1_1-1000.fasta
 # Extract chromosome/scaffold names and lengths, sort by length in descending order
 samtools faidx file.fasta #index first
 cut -f1-2 file.fai | sort -n -r -k 2 > scaffold_lengths.txt
+```
+
+---
+
+### General
+
+```
+# Extract all chromosome/scaffold names from a FASTA file
+grep "^>" mygenome.fasta > list_of_scaffolds.txt
+
+# Search a directory + sub-directories for a file name containing a string
+# Example: find all files ending in ".bam"
+find . -type f -name "*.bam"
+
+# Execute a command for all files in a directory + sub-directories whose name matches a certain pattern
+find . -type f -name "pattern" -exec [COMMAND] {} [TARGET] \;
+# Example: find all files in current directory ending in ".bam" and move to a directory called target/
+find . -type f -name "*.bam" -exec mv {} target/ \;
+
+# Create a symlink
+ln -s /path/to/original/file /path/to/target/folder
+```
