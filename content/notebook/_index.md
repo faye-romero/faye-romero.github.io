@@ -13,9 +13,16 @@ Code chunks that I've found repeatedly useful when dealing with genomic data.
 ```
 #bcftools v1.21
 
+# file type conversion
+bcftools view -Ou -o file.bcf file.vcf.gz #compressed VCF to uncompressed BCF
+bcftools view -Oz -o file.vcf.gz file.bcf #BCF to compressed VCF
+
+# check if a BCF is uncompressed or not (because both file types just end in .bcf)
+xxd file.bcf | head -2
+# If first line starts with "0000000: 1f8b", the file is BGZF-compressed
+
 # Count how many variants in a VCF
 bcftools view -H file.vcf.gz | wc -l
-#-H = no header
 
 # Count how many chromosomes/scaffolds in a VCF
 bcftools query -f '%CHROM\n' file.vcf.gz | uniq | wc -l
@@ -25,6 +32,10 @@ bcftools query -f '%CHROM\t%POS\t%ID\n' file.vcf.gz
 
 # Get list of individuals in a VCF
 bcftools query -l file.vcf.gz
+
+# Subset a VCF to only include a list of individuals (list is newline-separated)
+bcftools query -S list.txt file.vcf.gz
+# to exclude, use -S ^list.txt
 
 # Pull all information for one variant
 bcftools view -H -i 'ID=="SNPID"' file.vcf.gz
@@ -91,3 +102,5 @@ find . -type f -name "*.bam" -exec mv {} target/ \;
 # Create a symlink
 ln -s /path/to/original/file /path/to/target/folder
 ```
+
+---
