@@ -43,3 +43,5 @@ Press coverage:
 + [NPR](https://www.npr.org/2025/05/23/nx-s1-5409073/annas-hummingbird-backyard-feeders)
 + [Audubon](https://www.audubon.org/magazine/hummingbirds-rapidly-evolved-longer-beaks-slurp-more-nectar-yard-feeders-new-study)
 + Find the full list [here](https://faye-romero.github.io/media/annas/).
+
+Webinar with the LA Birder's Club: <a href="https://youtu.be/bUz2wwLSX1c?si=Z2ZaPQagoIikSwu6">How Humans Have Shaped the Anna's Hummingbird</a> (10 Mar 2026)
