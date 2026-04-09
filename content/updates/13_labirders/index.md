@@ -21,4 +21,4 @@ disableAnchoredHeadings: false
 
 #### Description
 
-I was invited by the Los Angeles Birder's Club to discuss our Anna's Hummingbird work as part of their webinar series. Find my seminar, 'How Humans Have "shaped" the Anna's Hummingbird', on their <a href="https://youtu.be/bUz2wwLSX1c?si=Z2ZaPQagoIikSwu6">YouTube channel</a>.
+I was invited by the Los Angeles Birder's Club to discuss our Anna's Hummingbird work as part of their webinar series. Find my seminar, 'How humans have "shaped" the Anna's Hummingbird', on their <a href="https://youtu.be/bUz2wwLSX1c?si=Z2ZaPQagoIikSwu6">YouTube channel</a>.
