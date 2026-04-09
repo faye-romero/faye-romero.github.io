@@ -4,7 +4,7 @@ date: 2026-03-10
 tags: ["update"]
 author: ["Faye Romero"]
 description: " "
-summary: "Public seminar: LA Birder's Club"
+summary: "I gave a seminar about Anna's Hummingbirds to the LA Birder's Club"
 cover:
     image: ""
     alt: ""
@@ -21,4 +21,4 @@ disableAnchoredHeadings: false
 
 #### Description
 
-I was invited by the Los Angeles Birder's Club to discuss our Anna's Hummingbird work as part of their webinar series. Find my seminar, "How Humans Have Shaped the Anna's Hummingbird", on their <a href="https://youtu.be/bUz2wwLSX1c?si=Z2ZaPQagoIikSwu6">YouTube channel</a>.
+I was invited by the Los Angeles Birder's Club to discuss our Anna's Hummingbird work as part of their webinar series. Find my seminar, 'How Humans Have "shaped" the Anna's Hummingbird', on their <a href="https://youtu.be/bUz2wwLSX1c?si=Z2ZaPQagoIikSwu6">YouTube channel</a>.
