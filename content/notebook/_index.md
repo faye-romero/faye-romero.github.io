@@ -46,7 +46,8 @@ bcftools view -S list.txt file.vcf.gz
 bcftools view -s SampleID file.vcf.gz
 
 # Pull all info (except genotypes) for one site at coordinate 1:1000
-bcftools view -G file.vcf.gz 1:1000 #if VCF is indexed
+bcftools view -H -G file.vcf.gz 1:1000 #if VCF is indexed
+# -H excludes VCF header; -G excludes genotypes
 
 # Remove or keep a list of variants from a VCF (list is newline-separated)
 bcftools view -e 'ID == @remove.txt' file.vcf.gz -Oz -o out.vcf.gz
