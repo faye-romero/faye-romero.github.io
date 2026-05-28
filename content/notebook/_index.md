@@ -29,6 +29,9 @@ bcftools index --nrecords file.vcf.gz #if VCF is indexed; much faster
 bcftools query -f '%CHROM\n' file.vcf.gz | uniq | wc -l
 bcftools index --stats file.vcf.gz | cut -f1 | wc -l #if VCF is indexed; much faster
 
+# Get number of sites per chromosome
+bcftools index --stats file.vcf.gz #if VCF is indexed
+
 # Get a list of variants in a VCF (CHROM, POS, ID)
 bcftools query -f '%CHROM\t%POS\t%ID\n' file.vcf.gz
 
@@ -41,6 +44,9 @@ bcftools view -S list.txt file.vcf.gz
 
 # Pull all information for one sample
 bcftools view -s SampleID file.vcf.gz
+
+# Pull all info (except genotypes) for one site
+bcftools view -G file.vcf.gz 1:1000 #if VCF is indexed
 
 # Remove or keep a list of variants from a VCF (list is newline-separated)
 bcftools view -e 'ID == @remove.txt' file.vcf.gz -Oz -o out.vcf.gz
