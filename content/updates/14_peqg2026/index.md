@@ -4,7 +4,7 @@ date: 2026-06-29
 tags: ["update"]
 author: ["Faye Romero"]
 description: " "
-summary: " "
+summary: "I presented at PEQG 2026 (and also won an award!)"
 cover:
     image: ""
     alt: ""
