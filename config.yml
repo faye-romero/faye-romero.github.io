@@ -64,7 +64,7 @@ params:
           enabled: true
           title: Faye Romero
           subtitle: "I am a Biology PhD candidate and NSF Graduate Research Fellow at the University of Rochester advised by <u>[Dr. Nancy Chen](https://popgenchenlab.github.io)</u>. My current research focuses on exploring the evolutionary and conservation genetics of small populations using the threatened <u>[Florida Scrub-Jay](https://www.archbold-station.org/projects/long-term-florida-scrub-jay-project/)</u> as a model system."
-          imageUrl: "Romero,Faye.png"
+          imageUrl: "FR_HEADSHOT3.JPG"
           imageWidth: 160
           imageHeight: 160
           buttons:

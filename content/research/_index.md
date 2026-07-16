@@ -17,6 +17,10 @@ I’m broadly interested in using population genomics to better understand how i
 ![](jays.jpg)
 <i>Image credit: Reed Bowman</i>
 
+<br>
+
+![](Romero,Faye.png)
+
 ---
 
 ### Hummingbirds and urbanization
