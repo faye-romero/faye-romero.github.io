@@ -21,4 +21,4 @@ disableAnchoredHeadings: false
 
 #### Description
 
-I had the opportunity to share both my research and personal story with <i>Positively Filipino</i>, a digital magazine celebrating lived experiences across the Filipino diaspora. <Check out the interview by Anthony Maddela, <a href="https://www.positivelyfilipino.com/magazine/with-feathers-on-her-cap">"With Feathers On Her Cap"</a>. Maraming salamat to the <i>Positively Filipino</i> for creating space for stories like mine!
+I had the opportunity to share both my research and personal story with <i>Positively Filipino</i>, a digital magazine celebrating lived experiences across the Filipino diaspora. Check out the interview by Anthony Maddela: <a href="https://www.positivelyfilipino.com/magazine/with-feathers-on-her-cap">"With Feathers On Her Cap"</a>. Maraming salamat to the <i>Positively Filipino</i> for creating space for stories like mine!
